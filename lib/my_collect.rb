@@ -1,10 +1,10 @@
 
 
-def my_collect(array)
-  i = 0
+def my_collect(collection)
+  collection = []
 
-  while i < array.length
-    yield array[i]
-    i = i + 1
+  while i < collection.length
+    yield collection[i]
+    i = i.capitalize
   end
 end
